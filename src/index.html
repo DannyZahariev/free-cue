@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <title>Hello World!</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://unpkg.com/wavesurfer.js" defer></script>
+    <script type="module" src="./testwaveform.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -39,7 +41,7 @@
           cue
         </div>
         <div class="cue">
-          cue
+          Cue
         </div>
         <div class="cue">
           cue
@@ -69,6 +71,7 @@
         playback-viewer-window
       </div>
       <div class="window" id="cue-modifier-window">
+        <div id="waveform"></div>
         cue-modifier-window
       </div>
       <div class="window" id="toolbar-window">

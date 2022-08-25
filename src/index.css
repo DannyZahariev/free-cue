@@ -13,6 +13,7 @@ body {
 .window {
   display: block;
   float: left;
+  overflow-x: hidden;
 
   width: 50vw;
   height: 50vh;
